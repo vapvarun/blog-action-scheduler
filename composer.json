@@ -1,0 +1,22 @@
+{
+    "name": "wbcomdesigns/blog-action-scheduler",
+    "description": "WordPress plugin that schedules notifications and reminders for blog authors",
+    "type": "wordpress-plugin",
+    "license": "GPL-2.0-or-later",
+    "authors": [
+        {
+            "name": "vapvarun",
+            "email": "varun.vapvarun@gmail.com",
+            "homepage": "https://wbcomdesigns.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.2",
+        "woocommerce/action-scheduler": "^3.5"
+    },
+    "autoload": {
+        "classmap": [
+            "includes/"
+        ]
+    }
+}
